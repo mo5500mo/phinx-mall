@@ -1,0 +1,109 @@
+
+/*==== loading page Animation ====*/
+@keyframes load{
+    0%,100%{
+        top: 50%;
+        left: 50%;
+    }
+    15%,75%{
+        top: 43%;
+        left: 50%;
+    }
+    30%,60%{
+        top: 43%;
+        left: 70%;
+    }
+    45%{
+        top: 50%;
+        left: 70%;
+    }  
+}
+@keyframes load2{
+    0%,100%{
+        top: 50%;
+        left: 50%;
+    }
+    15%,75%{
+        top: 58%;
+        left: 50%;
+    }
+    30%,60%{
+        top: 58%;
+        left: 70%;
+        
+    }
+    45%{
+        top: 50%;
+        left: 70%;
+        
+    }    
+}/*==== end loading page Animation ====*/
+
+/*==== dropdown navbar Animation ====*/
+@keyframes dropdown{
+    0%{
+        
+    }100%{
+        padding-left: 30px;
+    }
+}/*==== end dropdown navbar Animation ====*/
+
+/*==== portfolio Animation ====*/
+@keyframes portfolio-img{
+    0%{
+        transform: scale(68%,68%);
+    }100%{
+        transform: scale(94%,90%);
+    }
+}
+/*==== portfolio Animation ====*/
+@keyframes cont{
+    from{
+        margin-top: 50%;
+    }
+    to{
+        margin-top: 35%;
+    }
+}
+
+/*==== js_animation ====*/
+@keyframes scale_ani{
+    0%{
+        opacity: 0;
+        transform:scale(50%,50%);
+    }
+    100%{
+        opacity: 1;
+        transform:scale (100%,100%);
+    }
+}
+@keyframes right_ani{
+    0%{
+        opacity: 0;
+        margin-right:100px;
+    }
+    100%{
+        opacity: 1;
+        margin-right:0px;
+    }
+}
+@keyframes left_ani{
+    0%{
+        opacity: 0;
+        margin-left:100px;
+    }
+    100%{
+        opacity: 1;
+        margin-left:0px;
+    }
+}
+@keyframes down_ani{
+    0%{
+        margin-top: 100px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
