@@ -1,14 +1,3 @@
-//  function beforloading(){
-//      setTimeout(showmypage, 4000);
-//  }
-//  document.getElementById("main").style.display="none";
-//  document.getElementById("header").style.display="none";
-// function showmypage(){
-//      document.getElementById("loading").style.display="none";
-//      document.getElementById("main").style.display="block";
-//      document.getElementById("header").style.display="block";
-// }
-// beforloading();
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
